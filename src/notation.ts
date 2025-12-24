@@ -101,6 +101,7 @@ const xml = new Notation("xml", ["<!--", "-->"], "", "");
 const yaml = new Notation("yaml", ["", ""], "#", "");
 
 // custom languages
+const ahk = new Notation("ahk", ["/*", "*/"], ";", "");
 const crystal = new Notation("crystal", ["", ""], "#", "");
 const d = new Notation("d", ["/*", " */"], "//", " *");
 const erlang = new Notation("erlang", ["", ""], "%%", "");
@@ -164,6 +165,8 @@ export const notations: { [key: string]: Notation } = {
     "xml": xml,
     "yaml": yaml,
 
+    "ahk": ahk,
+    "autohotkey": ahk,
     "crystal": crystal,
     "d": d,
     "erlang": erlang,

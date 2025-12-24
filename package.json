@@ -171,6 +171,16 @@
                     "Elixir",
                     "elixir"
                 ]
+            },
+            {
+                "id": "ahk",
+                "extensions": [
+                    ".ahk"
+                ],
+                "aliases": [
+                    "AutoHotkey",
+                    "ahk"
+                ]
             }
         ],
         "configuration": {
